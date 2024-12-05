@@ -32,11 +32,10 @@ footer.append(a);
 const main = document.createElement("main");
 const select = document.createElement("select");
 console.dir(select);
+select.id = "rating";
 
 const section = document.createElement("section");
 section.classList = "Features";
-
-select.id = "rating";
 
 document.body.prepend(main);
 
